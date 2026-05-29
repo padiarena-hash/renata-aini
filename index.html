@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayam Bakar Lezat</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: #f8f8f8;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container{
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        img{
+            width: 100%;
+            max-width: 500px;
+            border-radius: 15px;
+        }
+
+        h1{
+            color: #c0392b;
+        }
+
+        button{
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background: #c0392b;
+        }
+
+        #info{
+            margin-top: 20px;
+            text-align: left;
+            padding: 15px;
+            background: #fff5e6;
+            border-radius: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🍗 Ayam Bakar Spesial 🍗</h1>
+
+    <img src="WhatsApp Image 2026-05-29 at 16.48.59 (1).jpeg" alt="Ayam Bakar">
+
+    <br><br>
+
+    <button onclick="tampilkanInfo()">
+        Tampilkan Pengertian & Fakta Menarik
+    </button>
+
+    <div id="info">
+        <h2>Pengertian Ayam Bakar</h2>
+        <p>
+            Ayam bakar merupakan hidangan berbahan dasar daging ayam
+            yang dimasak dengan proses pembakaran setelah diberi bumbu
+            rempah sehingga menghasilkan cita rasa khas dan aroma yang menggugah selera.
+        </p>
+
+        <h2>Fakta Menarik</h2>
+        <ul>
+            <li>Ayam bakar menjadi salah satu makanan favorit di Indonesia.</li>
+            <li>Setiap daerah memiliki racikan bumbu yang berbeda.</li>
+            <li>Proses pembakaran menghasilkan aroma khas yang lezat.</li>
+            <li>Biasanya disajikan bersama sambal dan lalapan segar.</li>
+            <li>Ayam mengandung protein yang baik untuk tubuh.</li>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+function tampilkanInfo(){
+    document.getElementById("info").style.display = "block";
+}
+</script>
+
+</body>
+</html>
